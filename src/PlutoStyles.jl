@@ -73,7 +73,8 @@ overrides() = [
 
     /* move cell popup menu to the left of its button */
     pluto-input > .open.input_context_menu > ul {
-        left: calc(100% - var(--width) - 36px) !important;
+        margin-left: -200px;
+        margin-right: 20px;
     }
     pluto-input > .open.input_context_menu > ul, pluto-input > .open.input_context_menu {
         z-index: 31 !important;
