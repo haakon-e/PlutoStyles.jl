@@ -4,6 +4,8 @@ export Pluto
 
 import Pluto
 
+__precompile__(false)
+
 
 full_content(x::Nothing, data) = data
 is_match(x, str) = occursin(x.regex, str)
